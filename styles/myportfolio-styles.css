@@ -27,9 +27,24 @@ a:hover {
   border: solid;
 }
 
+.outer { 
+  outline: 1px solid #eee;
+  display: table;
+  width: 100%;
+ }
+
+.outer > h2 {
+  display: table-cell;
+  height:100vh;
+  vertical-align: middle;
+  text-align: center;
+}
+
 #blurb { margin-bottom: 15px; }
 
-#projects {height:100vh;}
+#projects {}
+
+#about {}
 
 @media (min-width: 768px) { 
   .feature-modules {
@@ -50,7 +65,7 @@ a:hover {
   color: #333;
 }
 
-div#slider figure { 
+/*div#slider figure { 
   position: relative;
   width: 500%;
   margin: 0;
@@ -66,7 +81,7 @@ div#slider figure {
   height:572px;
   width:1000px;
 }
-
+*/
 .skill-box{
   border:solid .5px;
   border-radius:5px;
