@@ -11,8 +11,7 @@ a:hover {
   color:white;
 }
 
-.three-link-mod {
-}
+.three-link-mod {}
 
 .my-head {
   max-width:100%;
@@ -28,17 +27,21 @@ a:hover {
   border: solid;
 }
 
+#blurb { margin-bottom: 15px; }
 
-@media (min-width: 768px) { .feature-modules {
-  max-width:35%;
-  height:auto;
-  border-radius:50%;
-  border: solid;
-}
-.three-link-mod {
-  padding:40px;
-}
-  #blurb{display:none;}
+#projects {height:100vh;}
+
+@media (min-width: 768px) { 
+  .feature-modules {
+    max-width:35%;
+    height:auto;
+    border-radius:50%;
+    border: solid;
+  }
+  .three-link-mod {
+    padding:40px;
+  }
+  #blurb {display:none;}
 }
 
 
@@ -46,22 +49,6 @@ a:hover {
   border:dashed;
   color: #333;
 }
-
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
-}
-
-div#slider { overflow: hidden; }
-
-div#slider figure .slide-baby { width: 20%; float: left; }
 
 div#slider figure { 
   position: relative;
@@ -75,32 +62,6 @@ div#slider figure {
 
 #slide1 {
   background:url(../images/picture-68321.jpg);
-  margin:auto;
-  height:572px;
-  width:1000px;
-}
-
-#slide2 {
-  background:url(../images/jacob-nofziger-linkedin.jpg);
-  margin:auto;
-  height:572px;
-  width:1000px;
-}
-#slide3 {
-  background:url(../images/jacobm11-g3-face.jpg);
-  margin:auto;
-  height:572px;
-  width:1000px;
-}
-#slide4 {
-  background:url(../images/jacob-nofziger-g1-face.jpg);
-  margin:auto;
-  height:572px;
-  width:1000px;
-}
-
-#slide5{
-  background:url(../images/jacobmn-g2-face.jpg);
   margin:auto;
   height:572px;
   width:1000px;
